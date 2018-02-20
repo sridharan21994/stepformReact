@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-
+import StepperForm from './StepperForm.jsx';
 
 class DashboardPage extends React.Component{
   constructor(props){
@@ -10,7 +10,11 @@ class DashboardPage extends React.Component{
   
 
   render(){
-    return(<p>Dashboard page...</p>);
+    return(
+        <div>
+            <StepperForm/>
+        </div>
+        );
   }
 }
 
